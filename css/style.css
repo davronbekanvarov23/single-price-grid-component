@@ -1,0 +1,157 @@
+:root {
+  --primer-color: #fff;
+  --secondary-color: #c0df33;
+  --tertiary-color: #2ab3b1;
+  --main-font-family: "Karla", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style: none;
+}
+html {
+  height: 100%;
+}
+img {
+  display: flex;
+  object-fit: cover;
+}
+h1 {
+  margin: 0;
+}
+.container {
+  width: 100%;
+  max-width: 615px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+body {
+  height: 100%;
+  font-family: var(--main-font-family);
+  font-weight: 400;
+  color: var(--primer-color);
+}
+.box {
+  margin-left: auto;
+  margin-right: auto;
+  width: 635px;
+  height: 475px;
+  border-radius: 8px;
+  background: var(--primer-color);
+  box-shadow: 0px 15px 30px 0px rgba(0, 81, 171, 0.15);
+}
+.wrapper {
+  width: 635px;
+  height: 435px;
+}
+.header {
+  padding: 40px;
+}
+.box-title {
+  color: var(--tertiary-color);
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.3px;
+}
+.box-info {
+  color: var(--secondary-color);
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.225px;
+  margin-top: 24px;
+  margin-bottom: 11px;
+}
+.box-text-deceration {
+  color: #9aa7be;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.2px;
+  width: 555px;
+}
+.card {
+  display: flex;
+  position: relative;
+  padding: 40px;
+  width: 635px;
+  height: 259px;
+  background: var(--tertiary-color);
+}
+.firth-card {
+  display: flex;
+  flex-direction: column;
+  width: 237px;
+  margin-right: 40px;
+}
+.card-title {
+  color: var(--primer-color);
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.225px;
+
+}
+.white {
+  width: 318px;
+  height: 259px;
+  background: var(--primer-color);
+  opacity: 0.16;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+
+.price-month {
+  margin-top: 18px;
+  display: inline-flex;
+  align-items: center;
+  gap: 11px;
+}
+.price {
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: -0.4px;
+}
+.price-text {
+  line-height: 26px;
+  letter-spacing: -0.2px;
+  opacity: 0.5;
+}
+
+.card-text {margin-top: 4px;
+  margin-bottom: 26px;
+  width: 238px;
+  line-height: 26px;
+  letter-spacing: -0.2px;
+}
+.btn {
+  
+  color: var(--primer-color);
+  padding: 14px 89px;
+  letter-spacing: -0.2px;
+  font-weight: 700;
+  border-radius: 5px;
+  background: var(--secondary-color);
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.1);
+}
+.second-card {
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+}
+
+.second-card-text {
+  width: 238px;
+  opacity: 0.75;
+  margin-top: 18px;
+  line-height: 20px;
+  letter-spacing: -0.175px;
+}
